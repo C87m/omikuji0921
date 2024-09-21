@@ -218,14 +218,5 @@ document.getElementById("omikujiButton").addEventListener("click", function () {
   // スピン処理開始
   spin();
 
-  
-    // おみくじの内容をランダムに変更
-    const index = Math.floor(Math.random() * items.length);
-    // おみくじの内容を画面に表示
-    document.getElementById("omikujiTitle").textContent = items[index].title;
-    document.getElementById("omikujiDetails").textContent =
-      `${items[index].time}, ${items[index].company}, ホール: ${items[index].hall}`;
-  
-    document.getElementById("postToXButton").classList.remove("hidden");
 });
 
