@@ -228,7 +228,7 @@ document.getElementById("omikujiButton").addEventListener("click", function () {
 });
 
 function postToX(finalItem) {
-    const postText = `#技育祭 #講演おみくじ の結果は\n 「${finalItem.title}」でした！\n\n講演おみくじはこちら\nhttps://自分のURL\n\n技育祭の視聴申込はこちら\nhttps://talent.supporterz.jp/geeksai/2024autumn/`;
+    const postText = `#技育祭 #講演おみくじ の結果は\n 「${finalItem.title}」でした！\n\n講演おみくじはこちら\nhttps://c87m.github.io/omikuji0921/\n\n技育祭の視聴申込はこちら\nhttps://talent.supporterz.jp/geeksai/2024autumn/`;
   
     // 改行を含むテキストをURLエンコード
     const encodedText = encodeURIComponent(postText);
